@@ -1,3 +1,5 @@
+//add participant names and any questions here
+
 export const names = [
   "Heshan",
   "Sheelob the Spider",
