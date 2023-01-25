@@ -20,6 +20,6 @@ export const questions = [
   "What’s the weirdest food you’ve ever eaten?",
   "If you could live anywhere in the world for a year, where would it be?",
   "If you could see one movie again for the first time, what would it be and why?",
-  
+  "If you HAD to compete in the Olympics, which sport would you choose?",
 
 ];
