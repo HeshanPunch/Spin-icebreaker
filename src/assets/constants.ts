@@ -8,7 +8,7 @@ export const names = [
   "Martinez",
 ];
 
-export const questions = [
+const starterQuestions = [
   "You meet your 13 year old self, but you can only tell them 3 words. What do you say and why?",
   "What is something you'd love receiving as a gift but no one even considers giving you because you're an adult?",
   "What do you miss the most from pre-covid?",
@@ -26,3 +26,9 @@ export const questions = [
   "If you had enough money to do whatever you want to, what would you be doing?",
   "If you could travel anywhere for a year, where would you go?"
 ];
+
+// step 1: make an array with 1 or more questions
+const bobsQuestions = ["What is your favorite color?", "What is your favorite food?", "What is your favorite movie?"];
+
+//step 2: add the questions to the questions array
+export const questions = [...starterQuestions, ...bobsQuestions];
